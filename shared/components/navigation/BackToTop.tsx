@@ -180,8 +180,7 @@ export default function BackToTop() {
         'border-(--border-color) max-md:border-2',
         'inline-flex items-center justify-center rounded-full',
         'p-2 transition-all duration-200 md:p-3',
-        'bg-(--card-color) text-(--main-color)',
-        'hover:bg-(--main-color) hover:text-(--background-color)',
+        'bg-(--main-color) text-(--background-color) md:bg-(--secondary-color) md:hover:bg-(--main-color)',
         animState === 'idle' && 'hover:cursor-pointer',
       )}
       style={{ '--stable-vh': stableVh, ...getAnimationStyle() } as CSSProperties}
