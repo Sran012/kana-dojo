@@ -307,7 +307,7 @@
     "anime": "One Piece",
     "character": "Edward Newgate (Whitebeard)",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 32,
@@ -316,7 +316,7 @@
     "english": "Ze ha ha ha!",
     "anime": "One Piece",
     "character": "Marshall D. Teach (Blackbeard)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
